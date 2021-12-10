@@ -1,0 +1,58 @@
+.post{
+    width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+.post-header{
+    display: flex;
+}
+.post-title{
+    width: 70%;
+    padding-left: 10px;
+}
+
+.post-logo{
+    width: 30%;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.post-logo img{
+    width: 100px;
+    width: 80px;
+}
+
+.post-body{
+    display:flex
+}
+
+.post-body div{
+    width: 50%; 
+    padding: 0px 15px;
+}
+
+.post-body div input{
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 10px;
+}
+
+.post-footer{
+
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+  }
+
+ p {
+    font-weight: bold;
+
+  }
